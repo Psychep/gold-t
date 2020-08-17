@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+
+    font-family: "all-roll";
+
+    src: url("../fonts/All\ The\ Roll\ -\ Personal\ Use.otf") format('otf');
+
+    font-family: "billion";
+    src: url("../fonts/BillionDreams_PERSONAL.ttf") format('ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
+@tailwind utilities;
+
+html,
+body {
+    @apply h-screen;
+}
+
+
+
+
+.hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/gold.jpeg');
+
+
+
+    background-size: 100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/selam.jpg');
+    }
+}
