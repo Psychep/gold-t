@@ -10,7 +10,7 @@ function IndexPage() {
             alt="Four one-eyed aliens playing"
           />
 
-          <h2 className="p-3 my-8  font-all-roll  text-yellow-400 md:text-2xl">
+          <h2 className="p-2 my-8  font-body  text-yellow-400 md:text-2xl">
             G-OLD SCHOOL TATTOO
           </h2>
         </div>
@@ -26,7 +26,7 @@ function IndexPage() {
           ></img>
         </div>
         <div class="inline-block text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
-          2
+          <h1 className=" text-6xl font-billi">LOREM İPSUM DOLAR SİT AMET</h1>
         </div>
         <div class="inline-block text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
           3

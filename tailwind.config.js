@@ -3,7 +3,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["billion", "Helvetica", "Arial", "all-roll", "sans-serif"],
+        body: ["Roboto"],
+        roll: ["all-roll"],
+        billi: ["billion"],
+        glor: ["Gloria"],
       },
       colors: {
         "ahmet-bakkal": "#12ac45",
