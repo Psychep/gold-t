@@ -36,6 +36,8 @@ function Header() {
         >
           {[
             { title: "Home", route: "/" },
+
+            { title: "Store", route: "/store" },
             { title: "About", route: "/about" },
           ].map((navigationItem) => (
             <li className="mt-3 md:mt-0 md:ml-6" key={navigationItem.title}>
