@@ -4,9 +4,8 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Roboto"],
-        roll: ["all-roll"],
-        billi: ["billion"],
-        glor: ["Gloria"],
+        roll: ["Alata"],
+        dance: ["Dancing Script"],
       },
       colors: {
         "ahmet-bakkal": "#12ac45",

@@ -1,26 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap');
 
 
 @tailwind base;
 @tailwind components;
 
-@font-face {
 
-    font-family: "all-roll";
-
-    src: url("../fonts/All\ The\ Roll\ -\ Personal\ Use.otf") format('otf');
-
-    font-family: "billion";
-    src: url("../fonts/BillionDreams_PERSONAL.ttf") format('ttf');
-
-    font-weight: normal;
-
-    font-style: normal;
-
-    font-family: "Gloria";
-    src: url("../fonts/gloriahallelujah.ttf") format('ttf');
-
-}
 
 
 @tailwind utilities;
@@ -46,4 +32,30 @@ body {
     .hero {
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/selam.jpg');
     }
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+/* AIzaSyBwQJjQCrmHdyrVhiSPJgjQSm6U4Tj2k0k */
+#map {
+
+
+
+    width: 100%;
+
+
+
+    height: 400px;
+
+
+
+    background-color: grey;
+
+
+
 }

@@ -1,4 +1,5 @@
 import Layout from "../components/layout";
+import SimpleMap from "../js/SimpleMap";
 
 function AboutPage() {
   return (
@@ -8,10 +9,8 @@ function AboutPage() {
           <div className="space-y-6 md:w-1/2">
             {[
               {
-                heading: `What is Tailwind?`,
-                body: `Tailwind CSS is a highly customizable, low-level CSS framework that gives you all
-              of the building blocks you need to build bespoke designs without any
-              annoying opinionated styles you have to fight to override.`,
+                heading: `Biz Kimiz??`,
+                body: `Nei.`,
               },
               {
                 heading: `What is Next.js?`,
@@ -25,14 +24,9 @@ function AboutPage() {
               </div>
             ))}
           </div>
+          <SimpleMap></SimpleMap>
 
-          <div className="md:w-1/2">
-            <img
-              alt="A one-eyed alien holding a broken cable connected between a server and a desktop computer"
-              className="w-full"
-              src="critter.svg"
-            />
-          </div>
+          <div className=""></div>
         </div>
       </div>
     </Layout>
