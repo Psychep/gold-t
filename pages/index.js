@@ -5,7 +5,7 @@ function IndexPage() {
       <div className="  rounded-sm  ">
         <div className="flex flex-col items-center justify-center  hero bg-fixed h-screen">
           <img
-            src="team-of-critters.svg"
+            src="navvv.png"
             className="w-full max-w-xl"
             alt="Four one-eyed aliens playing"
           />
