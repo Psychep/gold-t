@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,12 +17,9 @@ body {
 }
 
 
-#menu-toggle:checked+#menu {
-    display: block;
-}
 
 .hero {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/gold.jpeg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/matblack.jpg');
 
 
 
@@ -32,7 +29,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .hero {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/selam.jpg');
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/matblack.jpg');
     }
 }
 

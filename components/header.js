@@ -11,7 +11,7 @@ function Header() {
           <img src="navvv.png" className=" mr-3 text-white w-10" />
 
           <Link href="/">
-            <a className="font-bold text-white text-xl">G-OLD TATOOO</a>
+            <a className="font-roll text-yellow-400  text-xl">G-OLD TATOO</a>
           </Link>
         </div>
 
@@ -40,7 +40,7 @@ function Header() {
             { title: "About", route: "/about" },
           ].map((navigationItem) => (
             <li
-              className="  border-b-2 border-transparent hover:border-indigo-400 mt-3 md:mt-0 md:ml-6"
+              className="  border-b-2 border-transparent  hover:border-yellow-400 hover:text-yellow-400 mt-3 md:mt-0 md:ml-6"
               key={navigationItem.title}
             >
               <Link href={navigationItem.route}>
