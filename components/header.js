@@ -5,18 +5,24 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="bg-black  ">
-      <div className="flex flex-wrap md:flex-no-wrap items-center justify-between max-w-4xl mx-auto p-2 md:p-18  ">
-        <div className="flex items-center">
-          <img src="navvv.png" className=" mr-3 text-white w-10" />
-
+    <header className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg  ">
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+        crossorigin="anonymous"
+      ></link>
+      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between  ">
+        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link href="/">
-            <a className="font-roll text-yellow-400  text-xl">G-OLD TATOO</a>
+            <a className="text-white hover:text-yellow-400 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase">
+              G-OLD TATOO
+            </a>
           </Link>
         </div>
 
         <button
-          className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-white"
+          className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -29,25 +35,34 @@ function Header() {
           </svg>
         </button>
 
-        <ul
-          className={`${
-            isExpanded ? `block` : `hidden`
-          } md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto`}
-        >
-          {[
-            { title: "Home", route: "/" },
-            { title: "Store", route: "/store" },
-            { title: "About", route: "/about" },
-          ].map((navigationItem) => (
-            <li
-              className="  border-b-2 border-transparent  hover:border-yellow-400 hover:text-yellow-400 mt-3 md:mt-0 md:ml-6"
-              key={navigationItem.title}
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"
             >
-              <Link href={navigationItem.route}>
-                <a className="block text-white">{navigationItem.title}</a>
-              </Link>
-            </li>
-          ))}
+              <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
+              <span class="lg:hidden inline-block ml-2">Share</span>
+            </a>
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"
+            >
+              <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
+              <span class="lg:hidden inline-block ml-2">Tweet</span>
+            </a>
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"
+            >
+              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
+              <span class="lg:hidden inline-block ml-2">Star</span>
+            </a>
+          </li>
         </ul>
       </div>
     </header>
