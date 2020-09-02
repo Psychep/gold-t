@@ -39,28 +39,25 @@ function Header() {
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
+              href="tel:+905333630430"
             >
-              <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
-              <span class="lg:hidden inline-block ml-2">Share</span>
+              <i class="lg:text-gray-300 hover:text-yellow-400 text-gray-500 fas fa-phone text-lg leading-lg "></i>
             </a>
           </li>
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
+              href="#gold"
             >
-              <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
-              <span class="lg:hidden inline-block ml-2">Tweet</span>
+              <i class="lg:text-gray-300 hover:text-yellow-400 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
             </a>
           </li>
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
+              href="https://www.instagram.com/tugrulyuce_/"
             >
-              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
-              <span class="lg:hidden inline-block ml-2">Star</span>
+              <i class="lg:text-gray-300 text-gray-500 fab fa-instagram hover:text-yellow-400 text-lg leading-lg "></i>
             </a>
           </li>
         </ul>

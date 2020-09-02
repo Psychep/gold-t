@@ -13,9 +13,11 @@ function AboutPage() {
                 body: `Nei.`,
               },
               {
-                heading: `What is Next.js?`,
-                body: `Next.js is a minimalistic framework for creating server-rendered
-              React applications.`,
+                heading: `sss`,
+                body: `asfsasafASFASF
+                AFasfasf
+                ASfasf
+                ASFasfasfasfasfasfas  `,
               },
             ].map((section) => (
               <div key={section.heading}>
