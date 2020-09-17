@@ -197,7 +197,6 @@ function IndexPage() {
               </div>
             </div>
           </div>
-
           <SimpleMap></SimpleMap>
         </div>
       </div>

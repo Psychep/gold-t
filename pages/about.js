@@ -17,7 +17,7 @@ function AboutPage() {
                 body: `asfsasafASFASF
                 AFasfasf
                 ASfasf
-                ASFasfasfasfasfasfas  `,
+                ASF asfasfasfasfasfas  `,
               },
             ].map((section) => (
               <div key={section.heading}>
